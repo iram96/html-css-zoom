@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+/* view Settings */
+
+.settings {
+  background-color: gray;
+}
+
+.scholar {
+  background-color: red;
+}
+
+.scholar-col {
+  background-color: goldenrod;
+}
+
+.card {
+  background-color: darkgreen;
+}
